@@ -10,6 +10,7 @@
         <module name="service_feign" />
         <module name="eureka_client" />
         <module name="eureka_server" />
+        <module name="service_ribbon" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="eureka_client" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="service_feign" options="-parameters" />
+      <module name="service_ribbon" options="-parameters" />
       <module name="spring_cloud_demo" options="-parameters" />
     </option>
   </component>

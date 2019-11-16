@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring_cloud_demo" />
-        <module name="service_feign" />
-        <module name="eureka_client" />
+        <module name="service-zuul" />
         <module name="eureka_server" />
         <module name="service_ribbon" />
+        <module name="service_feign" />
+        <module name="eureka_client" />
+        <module name="spring_cloud_demo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka_client" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
       <module name="service_feign" options="-parameters" />
       <module name="service_ribbon" options="-parameters" />
       <module name="spring_cloud_demo" options="-parameters" />

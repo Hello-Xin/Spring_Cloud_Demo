@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_cloud_demo" />
+        <module name="service_feign" />
         <module name="eureka_client" />
         <module name="eureka_server" />
       </profile>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka_client" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
+      <module name="service_feign" options="-parameters" />
       <module name="spring_cloud_demo" options="-parameters" />
     </option>
   </component>
